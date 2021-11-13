@@ -34,6 +34,7 @@ A API nesse projeto utiliza JWT para autenticação, você deve fazer a seguinte
 
 ```
 (POST) http://0.0.0.0:5000/login/
+
 { "login":"letscode", "senha":"lets@123" }
 ```
 
