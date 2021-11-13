@@ -139,7 +139,7 @@ Todas as rotas retornam 401 se o token não for passado, for inválido, mal-form
 
 10. No modo de edição, o card conterá um input para o `titulo`, um textarea para o `conteudo` e dois botões.
 
-11. No modo de edição, um dos botões cancela a edição, quando precionado os campos devem ser resetados para o valor atual e voltar o card ao modo de visualização.
+11. No modo de edição, um dos botões cancela a edição, quando pressionado os campos devem ser resetados para o valor atual e voltar o card ao modo de visualização.
 
 12. O outro botão salva o card, persistindo as informações pela API. Também volta ao modo de visualização em seguida.
 
