@@ -110,8 +110,11 @@ A API retornará a lista dos cards que sobraram (igual ao GET).
 **Atenção**: As rotas tem validações e retornos diferentes dependendo do resultado:
 
 POST e PUT retornam 400 se titulo, conteudo ou lista forem avaliados como falsy.
+
 PUT também retorna 400 se o id passado na URL não for igual ao do objeto passado no corpo da requisição.
+
 PUT e DELETE retornam 404 se não encontrarem um card com o id passado na URL.
+
 Todas as rotas retornam 401 se o token não for passado, for inválido, mal-formado ou expirado.
 
 #### Requisitos
