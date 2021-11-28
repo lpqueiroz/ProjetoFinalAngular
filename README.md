@@ -150,7 +150,7 @@ A tela de login deve ser acessada na rota `/login` e a tela do quadro de kanban 
 
 12. O outro botão salva o card, persistindo as informações pela API. Também volta ao modo de visualização em seguida.
 
-13. Toda decisão de visual é sua. 
+13. Toda decisão de visual é sua. Apenas utilize as duas telas especificadas no requisito 2.
 
 14. O projeto deve ser colocado em um repositório GITHUB ou equivalente, estar público, e conter um readme.md que explique em detalhes qualquer comando ou configuração necessária para fazer o projeto rodar.
 
