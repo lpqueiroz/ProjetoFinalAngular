@@ -121,7 +121,14 @@ Todas as rotas retornam 401 se o token não for passado, for inválido, mal-form
 
 1. A API deve ser usada para persistência dos cards (ela trabalha com persistência em memória) e não deve ser alterada.
 
-2. A interface gráfica será apenas uma tela, nela deve haver três colunas chamadas "To do", "Doing" e "Done".
+2. A interface gráfica serão 2 telas:
+
+-  tela do quadro de kanban: deve haver três colunas chamadas "To do", "Doing" e "Done".
+-  tela de login: formulário para inserção de login e senha.
+
+A tela de login deve ser acessada na rota `/login` e a tela do quadro de kanban deve ser acessada na rota `/kanban-board`. 
+
+**Obs: A tela do quadro de Kanban só deve ser acessada caso o exista um token no localStorage. Caso não exista, o usuário deve ser redirecionado para uma página de erro.**
 
 3. Os cards devem ser listados nessas colunas de acordo com o valor do campo `lista` presenta no card. Os valores de `lista` devem ser "ToDo", "Doing" e "Done", respectivamente.
 
@@ -148,3 +155,18 @@ Todas as rotas retornam 401 se o token não for passado, for inválido, mal-form
 14. O projeto deve ser colocado em um repositório GITHUB ou equivalente, estar público, e conter um readme.md que explique em detalhes qualquer comando ou configuração necessária para fazer o projeto rodar.
 
 15. A entrega será apenas a URL do repositório.
+
+#### Conceitos a serem avaliados no projeto:
+
+- Componentes
+- Databinding
+- Diretivas
+- Formulários
+- Rotas
+- Pipes
+- Services e injeção de dependência
+- Observables
+- Requisições HTTP
+- Autenticação e proteção de rotas
+- NgModules
+
